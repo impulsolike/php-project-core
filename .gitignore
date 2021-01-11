@@ -1,0 +1,7 @@
+.DS_Store
+.vscode
+.phpunit.result.cache
+.favorites.json
+composer.lock
+.phpunit.xml
+/vendor
