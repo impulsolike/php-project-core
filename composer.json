@@ -1,0 +1,41 @@
+{
+    "name": "impulsolike/project-core",
+    "type": "library",
+    "description": "Core para proyectos en PHP",
+    "keywords": [
+        "php",
+        "project",
+        "impulsolike"
+    ],
+    "homepage": "https://github.com/impulsolike/php-project-core",
+    "authors": [
+        {
+            "name": "GizzyZaxx",
+            "email": "gizzy@impulsolike.com"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^7.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "ImpulsoLike\\Core\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ImpulsoLike\\Core\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.x-dev"
+        }
+    }
+}
